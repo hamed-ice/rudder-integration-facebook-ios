@@ -39,7 +39,7 @@ import PackageDescription
 let package = Package(
     name: "Rudder-Facebook",
     dependencies: [
-      .package(name: "Rudder", url: "https://github.com/rudderlabs/rudder-sdk-ios.git", from: "1.0"),
+      .package(name: "Rudder", url: "https://github.com/rudderlabs/rudder-sdk-ios.git", from: "1.8.0"),
       .package(name: "FBSDKCoreKit", url: "https://github.com/facebook/facebook-ios-sdk.git", from: "13.2.0"),
         // add any other dependencies you need here
     ],
@@ -51,7 +51,7 @@ let package = Package(
                 "FBSDKCoreKit",
                 // add any other dependencies you need here
             ],
-            path: "https://github.com/hamed-ice/rudder-integration-facebook-ios/blob/master/Package.swift"
-        ),
+            path: "https://github.com/hamed-ice/rudder-integration-facebook-ios.git"
+        )
     ]
 )
