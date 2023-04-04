@@ -1,38 +1,5 @@
 // swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
-//
-//import PackageDescription
-//
-//let package = Package(
-//    name: "Address",
-//    platforms: [
-//        .iOS(.v13),
-//    ],
-//    products: [
-//        .library(
-//            name: "Address",
-//            targets: ["Address"]
-//        )
-//    ],
-//    dependencies: [
-//      .package(name: "UIComponents", path: "../../../Core/UIComponents"),
-//      .package(name: "Configs", path:"../../../Core/Configs"),
-//      .package(name: "DataModels", path:"../../../Core/DataModels"),
-//      .package(name: "Discovery", path:"../../../Core/Discovery"),
-//    ],
-//    targets: [
-//        .target(
-//            name: "Address",
-//            dependencies: ["UIComponents", "Configs", "DataModels", "Discovery"]
-//        ),
-//        .testTarget(
-//            name: "AddressTests",
-//            dependencies: ["Address"]
-//        ),
-//    ],
-//    swiftLanguageVersions: [.v5]
-//)
-// swift-tools-version:5.3
 
 import PackageDescription
 
