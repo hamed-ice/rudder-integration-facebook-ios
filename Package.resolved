@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Facebook",
+        "repositoryURL": "https://github.com/facebook/facebook-ios-sdk.git",
+        "state": {
+          "branch": null,
+          "revision": "ef4ccad51c7497fdbc2d8aa03ac12c37d3b1138d",
+          "version": "13.2.0"
+        }
+      },
+      {
+        "package": "Rudder",
+        "repositoryURL": "https://github.com/rudderlabs/rudder-sdk-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "6047fc6a7a2d260edc49e6d6c3ea219b5392f95c",
+          "version": "1.13.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

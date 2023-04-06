@@ -18,7 +18,10 @@ let package = Package(
                 "FBSDKCoreKit",
                 // add any other dependencies you need here
             ],
-            path: "https://github.com/hamed-ice/rudder-integration-facebook-ios.git"
+            sources: [
+              "Sources/Rudder-Facebook/ObjCFiles"
+            ],
+            publicHeadersPath: "Sources/Rudder-Facebook/ObjCFiles"
         )
     ]
 )
