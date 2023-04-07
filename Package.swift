@@ -8,16 +8,13 @@ let package = Package(
     dependencies: [
       .package(name: "Rudder", url: "https://github.com/rudderlabs/rudder-sdk-ios.git", from: "1.8.0"),
       .package(name: "Facebook", url: "https://github.com/facebook/facebook-ios-sdk.git", from: "14.0.0")
-        // add any other dependencies you need here
     ],
-    
     targets: [
         .target(
             name: "Rudder-Facebook",
             dependencies: [
                 "Rudder",
-                .product(name: "FacebookCore", package: "Facebook")
-                // add any other dependencies you need here
+                "Facebook"
             ],
             sources: [
               "ObjCFiles"
