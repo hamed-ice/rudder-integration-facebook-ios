@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/rudderlabs/rudder-sdk-ios.git",
         "state": {
           "branch": null,
-          "revision": "6047fc6a7a2d260edc49e6d6c3ea219b5392f95c",
-          "version": "1.13.0"
+          "revision": "495ccea8eddf7361d7052274f438b142f2196d55",
+          "version": "2.2.7"
         }
       }
     ]
