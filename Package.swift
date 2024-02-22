@@ -15,7 +15,7 @@ let package = Package(
             )
     ],
     dependencies: [
-      .package(name: "Rudder", url: "https://github.com/rudderlabs/rudder-sdk-ios.git", from: "2.2.0"),
+      .package(name: "Rudder", url: "https://github.com/rudderlabs/rudder-sdk-ios.git", .exact("2.4.2")),
       .package(name: "Facebook", url: "https://github.com/facebook/facebook-ios-sdk.git", from: "14.0.0")
     ],
     targets: [
